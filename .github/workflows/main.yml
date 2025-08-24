@@ -1,0 +1,16 @@
+name: tondu-workflow
+
+on:
+  push:
+    branches:
+      - 'main'
+      - 'feature/**'
+
+jobs:
+  mera_pehla_workflow:
+    name: 'tondu maharaj job'
+    runs-on: tondu-maharaj
+    steps:
+      - name: 'tondu maharaj print'
+        run: echo Hello Maharaj!
+    
