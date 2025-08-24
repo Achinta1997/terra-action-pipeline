@@ -26,5 +26,5 @@ resource "azurerm_resource_group" "RG" {
 
 resource "azurerm_resource_group" "RG1" {
   name     = "github-actions-rg1"
-  location = "East Europe" 
+  location = "West Europe" 
 }
