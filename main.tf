@@ -6,7 +6,12 @@ terraform {
     }
   }
 
-
+backend "azurerm" {
+    resource_group_name   = "achinta-app"
+    storage_account_name  = "sadda099"
+    container_name        = "terra"
+    key                   = "action.tfstate"
+}
 }
 
 provider "azurerm" {
