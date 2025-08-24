@@ -8,7 +8,7 @@ on:
 jobs:
   terraform:
     name: 'Terraform'
-    runs-on: tondu-maharaj
+    runs-on: tondu
 
     steps:
     # Checkout the repository to the GitHub Actions runner
