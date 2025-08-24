@@ -1,10 +1,10 @@
 name: tondu-workflow
 
-on:
-  push:
-    branches:
-      - 'main'
-      - 'feature/**'
+# on:
+#   push:
+#     branches:
+#       - 'main'
+#       - 'feature/**'
 
 jobs:
   mera_pehla_workflow:
