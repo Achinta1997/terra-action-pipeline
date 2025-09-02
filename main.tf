@@ -7,16 +7,15 @@ terraform {
   }
 
 backend "azurerm" {
-    resource_group_name   = "achinta-app"
-    storage_account_name  = "sadda099"
-    container_name        = "terra"
-    key                   = "action.tfstate"
+    resource_group_name   = "achinta-dev"
+    storage_account_name  = "terrastorage1"
+    container_name        = "terra-remote"
+    key                   = "terraformaction.tfstate"
 }
 }
 
 provider "azurerm" {
   features {}
-#  subscription_id = "661ea49e-05d4-429e-8204-de0d46c539b5"
 }
 
 resource "azurerm_resource_group" "RG" {
