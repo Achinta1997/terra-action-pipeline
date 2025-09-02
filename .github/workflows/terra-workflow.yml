@@ -9,8 +9,9 @@ permissions:
 
 jobs:
   terraform-init-plan:
-    runs-on: achinta
+    runs-on: achinta-linux
     name: terraform init and plan
+    
     steps:
     - name: Azure Login
       uses: Azure/login@v2.3.0
