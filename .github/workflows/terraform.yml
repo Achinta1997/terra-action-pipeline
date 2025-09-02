@@ -1,8 +1,7 @@
 name: 'Terraform'
 
 on:
-  push:
-    branches: [ "main" , "feature/**" ]
+  workflow_dispatch:
     
 jobs:
   terraform:
